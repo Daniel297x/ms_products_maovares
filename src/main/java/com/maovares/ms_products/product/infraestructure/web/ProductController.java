@@ -32,7 +32,7 @@ import jakarta.validation.Valid;
 
 @Tag(name = "Products", description = "API for product management")
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/v1/products")
 public class ProductController {
         private final GetProductsQuery getProductsQuery;
         private final GetProductQuery getProductQuery;
